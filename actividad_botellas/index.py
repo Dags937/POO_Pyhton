@@ -1,6 +1,6 @@
-from botella import Botella
-from botella_plastica import Botella_plastica
-from botella_vidrio import Botella_vidrio
+from padre import Botella
+from hijo1 import Botella_plastica
+from hijo2 import Botella_vidrio
 
 #codigo principal
 #hacer el objeto
@@ -16,4 +16,5 @@ print(imprimir_plastico)
 
 obj_botella_vidrio=Botella_vidrio("Vidrio", "2 litros", "circular", "templado", "grande")
 imprimir_vidrio=obj_botella_vidrio.imprimir_datos()
+
 print(imprimir_vidrio)
